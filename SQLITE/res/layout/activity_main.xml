@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="34dp">
+        <Button
+            android:id="@+id/addbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="185dp" />
+        <Button
+            android:id="@+id/savebut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/addbut"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_toEndOf="@+id/addbut"
+            android:layout_toRightOf="@+id/addbut"
+            android:text="VIEW DATA" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+</RelativeLayout>
